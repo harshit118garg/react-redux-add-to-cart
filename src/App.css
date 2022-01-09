@@ -1,0 +1,53 @@
+.topbar {
+  margin: 2rem;
+  font-size: 3rem;
+  color: brown;
+  cursor: pointer;
+  font-family: var(--font-2);
+  text-align: center;
+}
+
+.cart-wrapper {
+  margin: 3rem;
+}
+
+.item {
+  padding: 1rem;
+  margin: 2rem 3rem;
+  background-color: var(--deco-color-1);
+  width: 21%;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  font-size: 1.52rem;
+  font-weight: 600;
+  float: left;
+}
+
+.item:hover {
+  background-color: var(--dark-color-2);
+  color: var(--bg-color-3);
+  cursor: pointer;
+  box-shadow: var(--dark-shadow);
+}
+
+.img-wrapper img {
+  width: 70%;
+  height: 13rem;
+}
+
+.btn-wrapper button {
+  margin: 0.5rem 0;
+  box-shadow: var(--dark-shadow);
+  font-weight: 700;
+  color: var(--text-color-2);
+  background-color: var(--bg-color-2);
+  border: none;
+  padding: 0.5rem;
+  transition: var(--transition);
+  border-radius: var(--radius);
+}
+
+.btn-wrapper button:hover {
+  cursor: pointer;
+}
