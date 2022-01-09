@@ -11,6 +11,22 @@
   margin: 3rem;
 }
 
+.btn-wrapper button {
+  margin: 0.5rem 0;
+  box-shadow: var(--dark-shadow);
+  font-weight: 700;
+  color: var(--text-color-2);
+  background-color: var(--bg-color-2);
+  border: none;
+  padding: 0.5rem;
+  transition: var(--transition);
+  border-radius: var(--radius);
+}
+
+.btn-wrapper button:hover {
+  cursor: pointer;
+}
+
 .item {
   padding: 1rem;
   margin: 2rem 3rem;
@@ -34,20 +50,4 @@
 .img-wrapper img {
   width: 70%;
   height: 13rem;
-}
-
-.btn-wrapper button {
-  margin: 0.5rem 0;
-  box-shadow: var(--dark-shadow);
-  font-weight: 700;
-  color: var(--text-color-2);
-  background-color: var(--bg-color-2);
-  border: none;
-  padding: 0.5rem;
-  transition: var(--transition);
-  border-radius: var(--radius);
-}
-
-.btn-wrapper button:hover {
-  cursor: pointer;
 }
